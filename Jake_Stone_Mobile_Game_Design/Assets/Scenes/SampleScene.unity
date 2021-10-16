@@ -240,7 +240,11 @@ MonoBehaviour:
   bunkus: []
   skrinkle:
   - {fileID: 5858858020939670259, guid: 1c4adffd8bf3b7243b966574aca9b4c4, type: 3}
-  - {fileID: 5858858020939670259, guid: 1c4adffd8bf3b7243b966574aca9b4c4, type: 3}
+  - {fileID: 5858858020939670259, guid: d99f725052cf56a45b9dd33c064d01d7, type: 3}
+  - {fileID: 6412041509970447672, guid: 973a011ac7715f941836d06b6da80ad1, type: 3}
+  - {fileID: 6412041509970447672, guid: a76e9cbadfb542a45b2923501cb9b040, type: 3}
+  - {fileID: 4079952434257840297, guid: 7c40f9d17592bd9448979a6bc776603a, type: 3}
+  - {fileID: 847672917828320203, guid: 43d65c7a42da2a94aa460005fa47e70f, type: 3}
   spinosb4APP: 5
 --- !u!4 &597556436
 Transform:
@@ -420,63 +424,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.92, y: 2}
+  m_Offset: {x: 0.000000029802322, y: 0.0054548266}
+  m_Size: {x: 0.8881685, y: 1.9127225}
   m_Direction: 0
---- !u!1001 &3637882694797666507
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3637882694131477425, guid: 1c4adffd8bf3b7243b966574aca9b4c4, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637882694131477425, guid: 1c4adffd8bf3b7243b966574aca9b4c4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.62
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637882694131477425, guid: 1c4adffd8bf3b7243b966574aca9b4c4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637882694131477425, guid: 1c4adffd8bf3b7243b966574aca9b4c4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637882694131477425, guid: 1c4adffd8bf3b7243b966574aca9b4c4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637882694131477425, guid: 1c4adffd8bf3b7243b966574aca9b4c4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637882694131477425, guid: 1c4adffd8bf3b7243b966574aca9b4c4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637882694131477425, guid: 1c4adffd8bf3b7243b966574aca9b4c4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637882694131477425, guid: 1c4adffd8bf3b7243b966574aca9b4c4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637882694131477425, guid: 1c4adffd8bf3b7243b966574aca9b4c4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637882694131477425, guid: 1c4adffd8bf3b7243b966574aca9b4c4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637882694131477426, guid: 1c4adffd8bf3b7243b966574aca9b4c4, type: 3}
-      propertyPath: m_Name
-      value: DinoLeggie
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1c4adffd8bf3b7243b966574aca9b4c4, type: 3}

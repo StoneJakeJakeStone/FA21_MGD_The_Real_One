@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5971721029704875281}
   - component: {fileID: 8393579852451199523}
   m_Layer: 0
-  m_Name: dino_spino
+  m_Name: DinoSpino
   m_TagString: DinoSpine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1355998111853691867}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -0.04, y: -4.18, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -129,5 +129,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.19, y: 0.07}
+  m_Size: {x: 0.98, y: 0.29}
   m_EdgeRadius: 0

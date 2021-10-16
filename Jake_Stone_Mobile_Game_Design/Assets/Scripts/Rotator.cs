@@ -6,11 +6,11 @@ public class Rotator : MonoBehaviour
 {
     public float bingusX; //this is the first project of mine you have been graced with witnessing
     public float bangusY; //so I fairly warn you,
-    public float bongusZ; //get ready for some wacky naming conventions
+    public float bongusZ; //get ready for some wacky naming conventions           these 3 variables make it so you can set the rotation speed
 
     void Start()
     {
-        Collider2D c2D = GetComponent<Collider2D>();
+        Collider2D c2D = GetComponent<Collider2D>(); // gets the collider for the dino spine (rotating green thing)
     }   
     
     void Update()
@@ -22,11 +22,8 @@ public class Rotator : MonoBehaviour
     {
         if(other.gameObject.tag == "DinoSpine")
         {
-            other.gameObject.transform.SetParent(transform);  //thank you Christian
+            other.gameObject.transform.SetParent(transform);  //thank you Christian Hotte
             other.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
-            //other.gameObject.GetComponent<Rigidbody2D>().isKinematic = false;
-            //other.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-            //other.gameObject.GetComponent<Rigidbody2D>().angularVelocity = 0;
             print("piece attached");
         }
     }
